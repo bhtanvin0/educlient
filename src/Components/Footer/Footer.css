@@ -1,0 +1,37 @@
+.footer {
+    background: #018B4B;
+    height: auto;
+}
+
+.ftop {
+    padding: 50px 35px;
+    overflow: hidden;
+}
+
+.flist-1 {
+    width: 20%;
+    line-height: 35px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    float: left;
+    padding-left: 60px;
+}
+
+.flist-1 li:nth-child(1) {
+    font-family: poppins;
+    font-weight: 1000;
+    margin: 15px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.fbottom {
+    border-top: 1px solid #464859;
+}
+
+.fbottom table {
+    width: 100%;
+}

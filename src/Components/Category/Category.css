@@ -1,0 +1,7 @@
+.container .row a {
+    text-decoration: none;
+    width: 150px;
+    background-color: #dad3c8cc;
+    display: block;
+    text-align: center;
+}

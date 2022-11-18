@@ -1,0 +1,28 @@
+.g-4.row.row-cols-md-2.row-cols-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+.card {
+    display: flex;
+    flex-direction: row !important;
+    height: 200px !important;
+    width: 100%;
+    padding: 1rem;
+}
+.g-4.row.row-cols-md-2.row-cols-1 .col {
+    width: 100%;
+}
+img.card-img-top {
+    width: 320px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
