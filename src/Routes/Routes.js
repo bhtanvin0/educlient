@@ -25,7 +25,7 @@ export const routes = createBrowserRouter([
             {
                 path: '/courses',
                 element: <Courses></Courses>,
-                loader: () => fetch(`https://learn-skill-with-practice-server.vercel.app/courses`)
+                loader: () => fetch(`https://edu-server-tau.vercel.app/courses`)
             },
 
             {
@@ -42,7 +42,7 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/details/:id',
-                loader: ({ params }) => fetch(`https://learn-skill-with-practice-server.vercel.app/details/${params.id}`),
+                loader: ({ params }) => fetch(`https://edu-server-tau.vercel.app/details/${params.id}`),
                 element: <Details></Details>
             },
             {
@@ -51,7 +51,7 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/checkout/:id',
-                loader: ({ params }) => fetch(`https://learn-skill-with-practice-server.vercel.app/checkout/${params.id}`),
+                loader: ({ params }) => fetch(`https://edu-server-tau.vercel.app/checkout/${params.id}`),
                 element: <PrivateRoute> <Checkout /></PrivateRoute>
             },
 
