@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBsmNf9cP4sI6R2n7Hr-1Ol0ppToug2Gu8",
-    authDomain: "assernment10.firebaseapp.com",
-    projectId: "assernment10",
-    storageBucket: "assernment10.appspot.com",
-    messagingSenderId: "736590596834",
-    appId: "1:736590596834:web:a67e129710699b8c6b6cbb"
-};
+    apiKey: "AIzaSyBlsB_A137Ffs_uFbqvN-cHy0ijgyFI_cQ",
+    authDomain: "simple-firebase-4bd09.firebaseapp.com",
+    projectId: "simple-firebase-4bd09",
+    storageBucket: "simple-firebase-4bd09.appspot.com",
+    messagingSenderId: "2724890171",
+    appId: "1:2724890171:web:9bcf4d70e1d56a6da3fe1e"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
